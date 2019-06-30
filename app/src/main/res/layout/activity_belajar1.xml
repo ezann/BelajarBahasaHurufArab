@@ -8,293 +8,312 @@
     android:background="@drawable/bg"
     tools:context=".Belajar1Activity">
 
+    <ImageButton
+        android:id="@+id/kembali"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/back"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"/>
+
     <HorizontalScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scrollbars="none"
-        android:scrollbarSize="0dp"
-        android:scrollbarAlwaysDrawVerticalTrack="false"
-        android:scrollbarStyle="insideOverlay"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
+        android:layout_marginBottom="3dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbarSize="0dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="none">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
             android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true">
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
 
             <ImageButton
-                android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
-                android:layout_height="75dp"
                 android:id="@+id/alif"
-                android:layout_gravity="center"
-                android:background="@drawable/alif"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/alif" />
+
+            <ImageButton
                 android:id="@+id/ba"
-                android:layout_gravity="center"
-                android:background="@drawable/ba"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ba" />
+
+            <ImageButton
                 android:id="@+id/ta"
-                android:layout_gravity="center"
-                android:background="@drawable/ta"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ta" />
+
+            <ImageButton
                 android:id="@+id/tsa"
-                android:layout_gravity="center"
-                android:background="@drawable/tsa"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/tsa" />
+
+            <ImageButton
                 android:id="@+id/jim"
-                android:layout_gravity="center"
-                android:background="@drawable/jim"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/jim" />
+
+            <ImageButton
                 android:id="@+id/kha"
-                android:layout_gravity="center"
-                android:background="@drawable/kha"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/kha" />
+
+            <ImageButton
                 android:id="@+id/kho"
-                android:layout_gravity="center"
-                android:background="@drawable/kho"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/kho" />
+
+            <ImageButton
                 android:id="@+id/dal"
-                android:layout_gravity="center"
-                android:background="@drawable/dal"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/dal" />
+
+            <ImageButton
                 android:id="@+id/dzal"
-                android:layout_gravity="center"
-                android:background="@drawable/dzal"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/dzal" />
+
+            <ImageButton
                 android:id="@+id/ra"
-                android:layout_gravity="center"
-                android:background="@drawable/ra"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ra" />
+
+            <ImageButton
                 android:id="@+id/za"
-                android:layout_gravity="center"
-                android:background="@drawable/za"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/za" />
+
+            <ImageButton
                 android:id="@+id/sin"
-                android:layout_gravity="center"
-                android:background="@drawable/sin"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/sin" />
+
+            <ImageButton
                 android:id="@+id/syin"
-                android:layout_gravity="center"
-                android:background="@drawable/syin"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/syin" />
+
+            <ImageButton
                 android:id="@+id/shod"
-                android:layout_gravity="center"
-                android:background="@drawable/shod"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shod" />
+
+            <ImageButton
                 android:id="@+id/dhod"
-                android:layout_gravity="center"
-                android:background="@drawable/dhod"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/dhod" />
+
+            <ImageButton
                 android:id="@+id/tho"
-                android:layout_gravity="center"
-                android:background="@drawable/tho"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/tho" />
+
+            <ImageButton
                 android:id="@+id/dhlo"
-                android:layout_gravity="center"
-                android:background="@drawable/dhlo"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/dhlo" />
+
+            <ImageButton
                 android:id="@+id/ain"
-                android:layout_gravity="center"
-                android:background="@drawable/ain"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ain" />
+
+            <ImageButton
                 android:id="@+id/ghoin"
-                android:layout_gravity="center"
-                android:background="@drawable/ghoin"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ghoin" />
+
+            <ImageButton
                 android:id="@+id/fa"
-                android:layout_gravity="center"
-                android:background="@drawable/fa"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/fa" />
+
+            <ImageButton
                 android:id="@+id/qof"
-                android:layout_gravity="center"
-                android:background="@drawable/qof"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/qof" />
+
+            <ImageButton
                 android:id="@+id/kaf"
-                android:layout_gravity="center"
-                android:background="@drawable/kaf"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/kaf" />
+
+            <ImageButton
                 android:id="@+id/lam"
-                android:layout_gravity="center"
-                android:background="@drawable/lam"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/lam" />
+
+            <ImageButton
                 android:id="@+id/mim"
-                android:layout_gravity="center"
-                android:background="@drawable/mim"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/mim" />
+
+            <ImageButton
                 android:id="@+id/nun"
-                android:layout_gravity="center"
-                android:background="@drawable/nun"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/nun" />
+
+            <ImageButton
                 android:id="@+id/wawu"
-                android:layout_gravity="center"
-                android:background="@drawable/wawu"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/wawu" />
+
+            <ImageButton
                 android:id="@+id/ha"
-                android:layout_gravity="center"
-                android:background="@drawable/ha"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
                 android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
                 android:layout_height="75dp"
-                android:id="@+id/lamalif"
-                android:layout_gravity="center"
-                android:background="@drawable/lamalif"
                 android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
-                android:layout_width="75dp"
-                android:layout_marginBottom="5dp"
-                android:layout_height="75dp"
-                android:id="@+id/hamzah"
+                android:layout_centerHorizontal="true"
                 android:layout_gravity="center"
-                android:background="@drawable/hamzah"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
-            <ImageButton
-                android:layout_width="75dp"
                 android:layout_marginBottom="5dp"
-                android:layout_height="75dp"
+                android:background="@drawable/ha" />
+
+            <ImageButton
                 android:id="@+id/ya"
-                android:layout_gravity="center"
-                android:background="@drawable/ya"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
                 android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/ya" />
 
         </LinearLayout>
     </HorizontalScrollView>
@@ -303,7 +322,6 @@
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:id="@+id/tampil_hijaiyah"
-        android:background="@drawable/alif"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 

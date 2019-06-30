@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="landscape">
+            android:screenOrientation="sensorLandscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,9 +20,30 @@
         </activity>
         <activity
             android:name=".BelajarActivity"
-            android:screenOrientation="landscape" />
-        <activity android:name=".Belajar1Activity"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Belajar1Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".Belajar2Activity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".FathahActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".KasrohActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".DhomahActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity android:name=".Belajar3Activity"
+            android:screenOrientation="sensorLandscape"/>
+        <activity android:name=".FathahTainActivity"
+            android:screenOrientation="sensorLandscape"/>
+        <activity android:name=".KasrohTainActivity"
+            android:screenOrientation="sensorLandscape"/>
+        <activity android:name=".DhomahTainActivity"
+            android:screenOrientation="sensorLandscape"></activity>
     </application>
 
 </manifest>
